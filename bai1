@@ -1,53 +1,42 @@
+<html>
 <head>
-  <title>CSS Selectors</title>
-  <meta charset="UTF-8" />
-  <style>
-    h1, h2 {
-      color: yellow;
-      background-color: purple;
-    }
-    h2 {
-      background-color: red;
-    }
-    #truyen1 {
-      color: red;
-    }
-    #truyen2 {
-      color: green;
-    }
-    #truyen3 {
-      color: blue;
-    }
-    .background {
-      background-color: grey;
-    }
-  </style>
+    <title>Đơn xin việc</title>
+    <meta charset="UTF-8"/>
 </head>
 
+
+
 <body>
-  <h1>Truyện cười</h1>
+<p>
+    Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam<br/>
+    Độc lập - Tự do - Hạnh phúc
+</p>
 
-  <h2>Thân quen</h2>
-  <p id="truyen1" class="background">
-    Máy vi tính hỏi virus: "Cậu từ đâu đến đây thế?".<br/>
-    - Thế cậu ở đâu ra?<br/>
-    - Tớ đến từ USA.<br/>
-    - Vậy tớ là hàng xóm của cậu rồi. Tớ đến từ… USB.<br/>
-  </p>
+<p>.....o0o.....</p>
 
-  <h2>Người thứ tư!</h2>
-  <p id="truyen2" class="background">
-    Một nhóm học sinh đi chung trên một chiếc xe máy, đang chạy xe trên đường thì bị cảnh sát thổi, cả nhóm dừng lại.<br/>
-    Cảnh sát hỏi:"Tại sao mấy đứa dám kẹp ba mà lại không đội nón bảo hiểm vậy hả? Có biết như vậy là vi phạm luật giao thông hay ko?" <br/>
-    Cả nhóm hốt hoảng quay lại nhìn phía sau và hét lên:"Chết cha còn thằng thứ tư đâu mất tiêu rồi!!!"<br/>
-    Cảnh sát: !!!???Bật ngửa
-  </p>
+<h1>ĐƠN ỨNG TUYỂN</h1>
 
-  <h2>Tại sao Ế</h2>
-  <p id="truyen3" class="background">
-    - Ế đang là một xu thế của quốc tế trong khi nền kinh tế rất chi lề mề và trì trệ, còn lạm phát thì cao hơn điện thế.<br/>
-    - Ế là phong cách sống của các con người tinh tế và các bậc vai vế, chỉ thích ngồi trên ghế, nhâm nhi cafe, chơi đế chế hoặc nghịch dế.<br/>
-    - Ế là một lợi thế để chúng ta bàn mưu tính kế, xoay chuyển tình thế, quản lý tiền tệ... Rồi 1 ngày kinh tế sẽ đủ sức khống chế tình yêu.<br/>
-    - Tóm lại, ngắn gọn 1 câu: "Ế là một phong cách sống cực kỳ tinh tế" :))
-  </p>
+<p>Kính gửi: ............................................</p>
+
+<p>Tên tôi là: ............................................</p>
+
+<p>Sinh năm: ............................................</p>
+
+<p>Địa chỉ: ............................................</p>
+
+<p>Qua thông tin đăng trên techmaster.vn tôi được biết hiện nay Quý công ty đang có nhu cầu tuyển dụng Lập trình viên web Frontend. Với kiến thức và kinh nghiệm tích lũy được tôi nghĩ rằng tôi ứng tuyển vị trí này rất thích hợp.</p>
+
+<p>Tôi tốt nghiệp Cử nhân chuyên ngành Công nghệ thông tin tại <b>trường ĐH ABC</b>. Sau khi tốt nghiệp tôi làm việc ở vị trí Lập trình viên tại <b>Công ty chuyên sản xuất và gia công phần mềm DEF</b>. Tại vị trí này tôi tham gia phát triển các dự án ứng dụng web Frontend trên nền tảng <b>HTML5, CSS3 và Javascript</b>.</p>
+
+<p>Tôi cũng hiểu rằng vị trí này đòi hỏi ứng viên có khả năng làm việc bằng tiếng Anh khá, khả năng chịu được áp lực công việc cũng như làm việc nhóm tốt. Tôi tin với khả năng của mình có thể hoàn thành tốt nhiệm vụ Quý công ty giao phó.</p>
+
+<p>Tôi hy vọng có cơ hội được tham gia và đóng góp công sức vào sự phát triển của Quý công ty. Mọi liên hệ về lịch phỏng vấn hay thông tin về hồ sơ ứng tuyển này, xin vui lòng liên lạc số điện thoại: ...</p>
+
+<p>Xin chân thành cảm ơn và trân trọng kính chào!</p>
+
+<p>Hà Nội, ngày ... tháng ... năm 20...</p>
+
+<p>Người làm đơn</p>
+<p>.............</p>
 </body>
+</html>
