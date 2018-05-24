@@ -1,5 +1,18 @@
+* { 
+ box-sizing: border-box;
+
+ }
+
+
 h1 {
- color: red;
+ color: blue;
  font-size: 40px;
  
-	 }
+	}
+
+#wrap {
+
+	max-width: 1000px;
+	margin: auto;
+	
+}
