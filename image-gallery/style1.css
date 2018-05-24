@@ -29,8 +29,15 @@ h3 {
 
 }
 
+#banner {
+	float: left;
+
+}
+
 #mainmenu {
 	margin: auto;
+	text-align: center;
+
 	
 }
 
@@ -50,9 +57,56 @@ h3 {
  #mainmenu a:visited {
  	color : grey;
  
+}
 
- .anh { 
-	max-width: 300px;
-	margin: 5px;
+#boram {
+	float: left;
+	max-width: 250px;
+	margin: auto;
+
+
+}
+
+
+}
+#soyeon {
+	float: left;
+	max-width: 250px;
+	margin: auto;
+	
+
+}
+#jiyeon {
+	float: left;
+	max-width: 250px;
+	margin: auto;
+	
+
+}
+#eunjung {
+	float: left;
+	max-width: 100px;
+	margin: auto;
+	
+
+}
+
+}
+img { 
+	width: 100%
+
  }
+
+ img:hover {
+ 	color: grey;
+
+ }
+
+ .anh {
+ 	max-width: 300px;
+
+ }
+	
+
+ 
 
