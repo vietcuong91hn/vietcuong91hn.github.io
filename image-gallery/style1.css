@@ -32,6 +32,8 @@ h3 {
 #banner {
 	float: left;
 
+
+
 }
 
 #mainmenu {
@@ -61,7 +63,7 @@ h3 {
 
 #boram {
 	float: left;
-	max-width: 250px;
+	max-width: 30%;
 	margin: auto;
 
 
@@ -71,21 +73,21 @@ h3 {
 }
 #soyeon {
 	float: left;
-	max-width: 250px;
+	max-width: 30%;
 	margin: auto;
 	
 
 }
 #jiyeon {
 	float: left;
-	max-width: 250px;
+	max-width: 30%;
 	margin: auto;
 	
 
 }
 #eunjung {
 	float: left;
-	max-width: 100px;
+	max-width: 30%;
 	margin: auto;
 	
 
@@ -102,8 +104,13 @@ img {
 
  }
 
+.anhbanner {
+	max-width: 100%;
+
+}
+
  .anh {
- 	max-width: 300px;
+ 	max-width: 30%;
 
  }
 	
