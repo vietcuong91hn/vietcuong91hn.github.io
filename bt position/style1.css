@@ -1,5 +1,7 @@
 * {
 box-sizing: border-box;
+background-color: pink;
+
 
 
 }
@@ -30,15 +32,24 @@ h3 {
 }
 
 #banner {
-	float: left;
-
+	float: left;	
 
 
 }
 
+
+
 #mainmenu {
-	margin: auto;
+	background: none;
+	padding: 20px;
 	text-align: center;
+	position: fixed;
+	top:5px;
+	right: 0;
+}
+
+
+
 
 	
 }
@@ -61,9 +72,30 @@ h3 {
  
 }
 
-#boram {
+.menu {
+	
+	display: block;
+	height: 200px;
+	width: 50px;
+	border: 5px;
+	background: none ;
+	
+	
+
+
+}
+
+
+#content {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#ny {
 	float: left;
-	max-width: 30%;
+	max-width: 33%;
 	margin: auto;
 
 
@@ -71,25 +103,36 @@ h3 {
 
 
 }
-#soyeon {
+#ld {
 	float: left;
-	max-width: 30%;
+	max-width: 33%;
 	margin: auto;
 	
 
 }
-#jiyeon {
+#rio {
 	float: left;
-	max-width: 30%;
+	max-width: 33%;
 	margin: auto;
 	
 
 }
-#eunjung {
+#cr {
 	float: left;
-	max-width: 30%;
+	max-width: 33%;
 	margin: auto;
 	
+
+}
+
+
+#back {
+
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 40px;
+	height: 40px;
 
 }
 
