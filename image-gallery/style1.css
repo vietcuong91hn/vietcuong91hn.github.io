@@ -47,12 +47,16 @@ h3 {
 	font-size: 20px;
 	color: red;
 	text-decoration: none;
+	opacity: 1;
+	transition: opacity 0.3s linear;
 
 
  }
 
  #mainmenu a:hover {
- 	color: black;
+ 	
+ 	opacity: 0.3;
+
 
  }
 
@@ -104,21 +108,41 @@ img {
 
  }
 
- img:hover {
- 	color: grey;
 
- }
 
-.anhbanner {
+.banneranh {
 	max-width: 100%;
 
 }
 
- .anh {
- 	max-width: 30%;
+.anh {
+	max-width: 30%;
 
- }
+}
+
+.thumb {
+	overflow: hidden;
+
+}
 	
+.anh {
+	
+	opacity: 1;
+	transition: opacity 0.5s linear;
+	overflow: hidden;
+
+	
+}
+
+
+
+
+.anh:hover {
+	opacity: 0.5;
+	transform: translate(0, -10px);
+
+}
+ 
 
  
 
