@@ -4,7 +4,12 @@ box-sizing: border-box;
 
 }
 
-
+body{
+	background-color: rgb(87, 91, 95);
+	background-image: url("img/background.jpg")
+	max-width: 1200px;
+	
+}
 
 h1 {
  color: pink;
@@ -24,8 +29,9 @@ h3 {
 	text-align: center;
 }
 #wrap {
-	max-width: 1000px;
 	margin: auto;
+
+	
 
 }
 
@@ -37,33 +43,66 @@ h3 {
 }
 
 #mainmenu {
-	margin: auto;
-	text-align: center;
-
 	
+
+	max-width: 100%;
+	text-align: center;
+	float: left;
 }
 
-#mainmenu a { 
-	font-size: 20px;
-	color: red;
-	text-decoration: none;
+
+ 
+#menu ul {
+		background: rgb(31, 44, 56);
+		list-style-type: none;
+		overflow: hidden;
+		width: 100%;
+	  }
+	
+
+ 
+
+ #mainmenu li { 
+	color: #f1f1f1;
+   float: left;
+   width: 150px;
+   height: 40px;
+   line-height: 40px;
+   padding-right: 20px;
+   text-align: center;
+ 
+
+
 	opacity: 1;
 	transition: opacity 0.3s linear;
-
+	list-style-type: none;
+	float: left;
 
  }
 
- #mainmenu a:hover {
+
+
+ #mainmenu li:hover {
  	
  	opacity: 0.3;
 
 
  }
 
- #mainmenu a:visited {
+ #mainmenu ul:visited {
  	color : grey;
  
 }
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+  }
+  #menu a:hover {
+	background: #F1F1F1;
+	color: #333;
+  }
 
 #boram {
 	float: left;
