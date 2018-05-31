@@ -160,7 +160,7 @@
 		max-width: 50%;
 		float: left;
 		margin: auto;
-		position: absolute;
+	
 	}
 	.content_right2 {
 		max-width: 50%;
@@ -195,7 +195,7 @@
 	}
 	
 	#footer {
-		
+
 		text-align: center;
 		background:  rgb(97, 17, 3);
 		color: white;
