@@ -1,0 +1,87 @@
+#menu {
+	float: left;
+}
+
+#mainmenu {
+	
+
+	max-width: 100%;
+	text-align: center;
+	float: left;
+	position: absolute;
+	clear: both;
+
+}
+
+
+ 
+#menu ul {
+		background: rgb(31, 44, 56);
+		list-style-type: none;
+		overflow: hidden;
+		width: 100%;
+	  }
+	
+
+ 
+
+ #mainmenu li { 
+	color: #f1f1f1;
+   float: left;
+   width: 150px;
+   height: 40px;
+   line-height: 40px;
+   padding-right: 20px;
+   text-align: center;
+ 
+
+
+	opacity: 1;
+	transition: opacity 0.3s linear;
+	list-style-type: none;
+
+
+
+ }
+
+
+
+ #mainmenu li:hover {
+ 	
+ 	opacity: 0.3;
+
+
+ }
+
+ #mainmenu ul:visited {
+ 	color : grey;
+ 
+}
+
+#menu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+  }
+  #menu a:hover {
+	background: #F1F1F1;
+	color: #333;
+  }
+
+
+#menu li {
+	position: relative;
+}
+
+#menu .sub-menu {
+	display: none;
+}
+
+#menu li:hover>.sub-menu{
+	display: block;
+
+}
+#menu li:hover>.sub-menu{
+	top: 40px;
+	left:0;
+}
