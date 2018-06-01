@@ -36,10 +36,11 @@
 		max-height: 500px;
 	}
 	
+	
 	#menu
 	{
 	  height: 40px;
-	  background-color: #FC9;
+	  background-color: #575b5f;
 	  margin: 5px 0px;
 	  text-align: center;
 	}
@@ -52,7 +53,7 @@
 		display: inline-block;
 		width: 120px;
 		height: 40px;
-		line-height: 40px;
+		
 		margin-left: -5px;
 	
 	  }
@@ -60,7 +61,7 @@
 		background: #575b5f;
 		list-style-type: none;
 		list-style: none;
-		overflow: hidden;
+		
 		width: 100%;
 		text-align: center;
 	  }
@@ -79,6 +80,7 @@
 		  padding: 10px 40px;
 		  display: block;
 		  white-space: pre;
+		 
 	
 	  }
 	
@@ -99,23 +101,28 @@
 	  }
 	
 	  #menu ul ul li {
-		  float: none;
+		
 		  border-right: none;
 	
 	  }
 	
 	  #menu ul ul {
-		  background-color: #0FF;
-		  position: absolute;
-		  top: 100%;
-		  left: 0;
-		  display: none;
+		  background-color: #575b5f00;
+		 
 	
 	  }
-	
-	
-	
-	
+	  #menu .sub-menu{
+		  display: none;
+		  position: absolute;
+		 
+		  width: 120px;
+		  padding: 5px 5px;
+		  text-align: center;
+	  }
+	  #menu li:hover .sub-menu{
+		  display: block;
+	  }
+	  
 	img { 
 		width: 100%;
 		padding: 30px;
@@ -153,6 +160,7 @@
 	.content_right {
 		max-width: 50%;
 		float: right;
+		padding-top: 115px;
 		
 	}
 	
@@ -160,7 +168,7 @@
 		max-width: 50%;
 		float: left;
 		margin: auto;
-	
+		padding-top: 300px;
 	}
 	.content_right2 {
 		max-width: 50%;
