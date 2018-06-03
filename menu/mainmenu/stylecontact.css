@@ -160,12 +160,12 @@
 	.content_left {
 		max-width: 45%;
 		float: left;
-		color:#F1F1F1;
-		background-color: #744129;
+		color:black;
+		background-color: #f1f1f1;
 		text-align: left;
 		word-spacing: 3px;
 		line-height: 45px;
-		height: 500px;
+		height: 700px;
 		padding: 60px 20 0 25px;
 		border-radius: 10%;
 		border: 5px;
@@ -183,7 +183,7 @@
 		float: right;
 		padding-top: -25px;
 		background-color: #744129;
-		height: 500px;
+		height: 700px;
 		border-radius: 10%;
 	}
 	
