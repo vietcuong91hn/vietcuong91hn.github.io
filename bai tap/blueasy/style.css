@@ -1,16 +1,8 @@
 * {
 	box-sizing: border-box;	
 	}
-
-.banner {
+.tittle{
 	position: relative;
-	
-
-}
-.banner__img {
-	
-	width:100%;
-	height: 550px;
 }
 .menu__space {
 	height: 150px;
@@ -18,20 +10,41 @@
 	background-color:#08041f;
 	opacity: 0.5;
 	top: 0;
-	float: left;
 	position: absolute;
 }
-.menu {
-
+.banner {
 	position: absolute;
-	top: 7%;
-	right: 14%;
+	max-width: 100%;
+	max-height: 50px;
 	
-}	
+
+}
+/* .banner__img {
+	
+	width:100%;
+	height: 550px;
+} */
+
+.menu {
+	float: left;
+	max-width: 70%;
+	padding-top: 40px;
+	padding-left: 300px;
+	
+}
+.menu__logo {
+	font-size : 20px;
+	color: white;
+	max-width: 30%;
+	float: left;
+	padding-top: 50px;
+	padding-left: 300px;
+	font-family: Ubuntu;
+}
+	
 .menu ul {
 	list-style-type: none;
 	list-style: none;
-	
 	width: 100%;
 
 }
@@ -40,6 +53,7 @@
 	font-size: 14px;
 	color:white;
 	text-align: center;
+	font-family:Ubuntu;
 }
 .menu li {
 	float: left;
@@ -63,17 +77,17 @@
 	transition: linear 0.5s;
 	padding: 10px;
 }
-.menu__logo {
-	font-size : 20px;
-	height: 85px;
-	color: white;
-	position: absolute;
-	text-align: center;
-	top: 9%;
-	right: 79%;
 
+.bannertext{
+	background-image: url("img/background.jpg");
+	background-size:cover;
+	width: 100%;
+	height: 500px;
+	
 }
+
 .banner__text1 {
+	font-family: Roboto;
 	font-size : 25px;
 	text-transform: uppercase;
 	height: 30px;
@@ -86,6 +100,7 @@
 	transform: translateX(-50%) translateY(-50%);
 }
 .banner__text2 {
+	font-family: Roboto;
 	font-size : 25px;
 	text-transform: uppercase;
 	height: 30px;
@@ -98,14 +113,18 @@
 	transform: translateX(-50%) translateY(-50%);
 }
 
-
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+}
 .service{
-	height: 75%;
+	/* height: 75%; */
 	background-color: aqua;
 	color: white;
-	width: 100%;
+	height: 75%;
 	
 }
+
 .service__menu{
 	text-transform: uppercase;
 	font-size: 30px;
@@ -114,56 +133,78 @@
 	padding-bottom: 10px;
 	
 }
-.space__left{
+/* .space__left{
 	background-color: aqua;
 	float: left;
 	width: 16.6%;
 	height: 75%;	
-}
+} */
 .service__coffee{
-	width: 16.6%;
+	width: 25%;
 	float: left;
 }
 .service__instant{
-	width: 16.6%;
+	width: 25%;
 	float: left;
 }
 .service__serious{
-	width: 16.6%;
+	width: 25%;
 	float: left;
 }
 .service__frame{
-	width: 16.6%;
+	width: 25%;
 	float: left;
 }
 
-.space__right{
+/* .space__right{
 	background-color: aqua;
 	float: left;
 	width: 16.6%;	
-}
-.clear{
+} */
+/* .clear{
 	height: 100px;
 	
+} */
+.content2{
+	max-width: 1200px;
+	
 }
+.portfolio{
+	/* float: left; */
+	max-width: 100%;
+}
+/* .port__spaceleft{
+	width: 15%;
+	height: 500px;
+	float: left;
+}
+.port__spaceright{
+	width: 15%;
+	height: 500px;
+	float: left;
+} */
 
 .port__text{
 	text-transform: uppercase;
 	font-size: 30px;
-	height: 80px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-	position: absolute;
+	float: left;
+	padding-top: 30px;
+	max-width: 40%;
+	padding-bottom: 50px;
 	
 }
 
 .portfolio__menu{
-	float: left;
+	float: right;
 	height: 30px;
 	width: 100%;
-	position: absolute;
-	right: -50%;
+	max-width: 60%;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	
+}
+.clear{
+	clear: both;
 }
 .portfolio__menu ul {
 	list-style-type: none;
@@ -200,72 +241,20 @@
 	transition: linear 0.5s;
 	padding: 10px;
 }
-.portfolio__img1{
-	width: 100%;
+.port__img{
+	overflow: hidden;
+	max-width: 25%;
 }
-.port__img1{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
+img {
+	width: 24%;
+	padding: 10px;
 }
-.port__img2{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
+.portfolio__img{
+	max-width: 100%;
+	float: left;	
 }
-}
-.port__img3{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
-}
-.port__img4{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
-}
-.port__space{
-	max-width: 16.6%;
-	float: left;
-	height: 70%;
-	margin: auto;
-}
-
-}
-.portfolio__img2{
-	width: 100%;
-}
-.port__img5{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
-}
-.port__img6{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
-}
-.port__img7{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
-}
-.port__img8{
-	max-width: 16.6%;
-	float: left;
-	max-height: 300px;
-	margin: auto;
-}
+.port__img:hover{
+	opacity: 0.7;
+	transition: opacity 0.7s linear;
+	box-shadow: 0px 0px 4px #000;
 }
