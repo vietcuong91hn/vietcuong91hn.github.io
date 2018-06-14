@@ -114,8 +114,9 @@
 }
 
 .wrap{
-	max-width: 1000px;
+	width: 100%;
 	margin: auto;
+	background-color:	aqua;
 }
 .service{
 	/* height: 75%; */
@@ -165,8 +166,14 @@
 	height: 100px;
 	
 } */
+.content1{
+	max-width: 1000px;
+	margin: auto;
+	background-color:	aqua;
+}
 .content2{
-	max-width: 1200px;
+	max-width: 1000px;
+	margin: auto;
 	
 }
 .portfolio{
