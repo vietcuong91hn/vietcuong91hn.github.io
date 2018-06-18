@@ -122,7 +122,7 @@
 	/* height: 75%; */
 	background-color: aqua;
 	color: white;
-	height: 75%;
+	height: 500px;
 	
 }
 
@@ -248,20 +248,51 @@
 	transition: linear 0.5s;
 	padding: 10px;
 }
-.port__img{
+/* .port__img{
 	overflow: hidden;
 	max-width: 25%;
-}
-img {
+} */
+/* img {
 	width: 24%;
 	padding: 10px;
-}
+} */
 .portfolio__img{
-	max-width: 100%;
-	float: left;	
+	position: relative;
+	width: 100%;
 }
-.port__img:hover{
-	opacity: 0.7;
-	transition: opacity 0.7s linear;
-	box-shadow: 0px 0px 4px #000;
+.port__wrap{
+	max-width: 25%;
+	float: left;
+	/* display: block; */
 }
+.port__img{
+	width: 100%;
+	padding: 10px;
+}
+
+.port__overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	visibility: hidden;
+	transition: .5s ease;
+	background-color: #888888;
+	max-width: 320px;
+  }
+   
+  .portfolio__img:hover .port__overlay {
+	visibility: unset;
+	
+  }
+  /* .plus{
+	color: white;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  } */
