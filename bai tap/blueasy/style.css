@@ -19,11 +19,6 @@
 	
 
 }
-/* .banner__img {
-	
-	width:100%;
-	height: 550px;
-} */
 
 .menu {
 	float: left;
@@ -134,12 +129,7 @@
 	padding-bottom: 10px;
 	
 }
-/* .space__left{
-	background-color: aqua;
-	float: left;
-	width: 16.6%;
-	height: 75%;	
-} */
+
 .service__coffee{
 	width: 25%;
 	float: left;
@@ -157,15 +147,6 @@
 	float: left;
 }
 
-/* .space__right{
-	background-color: aqua;
-	float: left;
-	width: 16.6%;	
-} */
-/* .clear{
-	height: 100px;
-	
-} */
 .content1{
 	max-width: 1000px;
 	margin: auto;
@@ -180,16 +161,6 @@
 	/* float: left; */
 	max-width: 100%;
 }
-/* .port__spaceleft{
-	width: 15%;
-	height: 500px;
-	float: left;
-}
-.port__spaceright{
-	width: 15%;
-	height: 500px;
-	float: left;
-} */
 
 .port__text{
 	text-transform: uppercase;
@@ -248,51 +219,45 @@
 	transition: linear 0.5s;
 	padding: 10px;
 }
-/* .port__img{
-	overflow: hidden;
-	max-width: 25%;
-} */
-/* img {
-	width: 24%;
+.portfolio__wrap{
+	width: 25%;
+	float: left;
 	padding: 10px;
-} */
-.portfolio__img{
+}
+.port__picture{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.overlay__wrap{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	background-color: #6d6b7894;
+	transition: linear 0.5s;
+}
+.port__overlay{
 	position: relative;
 	width: 100%;
-}
-.port__wrap{
-	max-width: 25%;
-	float: left;
-	/* display: block; */
-}
-.port__img{
-	width: 100%;
-	padding: 10px;
-}
-
-.port__overlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	height: 100%;
-	width: 100%;
-	visibility: hidden;
-	transition: .5s ease;
-	background-color: #888888;
-	max-width: 320px;
-  }
-   
-  .portfolio__img:hover .port__overlay {
-	visibility: unset;
-	
-  }
-  /* .plus{
-	color: white;
-	position: absolute;
-	overflow: hidden;
+}
+.overlay__text{
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-  } */
+	transform: translate(-50%,-50%);
+	position: absolute;
+	color: white;
+	font-size: 50px;
+}
+.port__picture:hover .overlay__wrap{
+	opacity: 1;
+	visibility: visible;
+}
+img {
+	width: 100%;
+	display: block;
+}
