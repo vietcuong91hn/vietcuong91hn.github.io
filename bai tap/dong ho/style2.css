@@ -423,7 +423,7 @@ body{
 	font-size: 10px;
 	/* transform: rotate(30deg); */
 	top: 43px;
-	left: 90px;
+	left: 92px;
 }
 .miniright__four{
 	position: absolute;
@@ -431,14 +431,14 @@ body{
 	font-size: 10px;
 	transform: rotate(125deg);
 	top: 64px;
-	left: 86px;
+	left: 88px;
 }
 .miniright__five{
 	position: absolute;
 	color: #b92626;
 	font-size: 10px;
 	transform: rotate(150deg);
-	top: 82px;
+	top: 83px;
 	left: 70px;
 }
 .miniright__six{
@@ -454,7 +454,7 @@ body{
 	color: #b92626;
 	font-size: 10px;
 	transform: rotate(205deg);
-	top: 84px;
+	top: 83px;
 	left: 24px;
 }
 .miniright__eight{
@@ -463,7 +463,7 @@ body{
 	font-size: 10px;
 	transform: rotate(230deg);
 	top: 68px;
-	left: 6px;
+	left: 9px;
 }
 .miniright__nine{
 	position: absolute;
@@ -563,15 +563,15 @@ body{
 	font-size: 10px;
 	/* transform: rotate(30deg); */
 	top: 43px;
-	left: 90px;
+	left: 92px;
 }
 .minibottom__four{
 	position: absolute;
 	color: #b92626;
 	font-size: 10px;
 	transform: rotate(125deg);
-	top: 64px;
-	left: 86px;
+	top: 65px;
+	left: 87px;
 }
 .minibottom__five{
 	position: absolute;
@@ -594,7 +594,7 @@ body{
 	color: #b92626;
 	font-size: 10px;
 	transform: rotate(205deg);
-	top: 84px;
+	top: 83px;
 	left: 24px;
 }
 .minibottom__eight{
@@ -602,8 +602,8 @@ body{
 	color: #b92626;
 	font-size: 10px;
 	transform: rotate(230deg);
-	top: 68px;
-	left: 6px;
+	top: 67px;
+	left: 8px;
 }
 .minibottom__nine{
 	position: absolute;
