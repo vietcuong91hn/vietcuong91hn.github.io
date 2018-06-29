@@ -1,0 +1,39 @@
+<html>
+
+<body>
+    <script>
+        var teacher = {
+            firstName: "Adam",
+            lastName: "Lallana",
+            age: 31,
+            say: function() {
+
+            }
+        }
+        var student = {
+            firstName: "Alexander",
+            lastName: "Arnorld",
+            age: 19,
+            say: function() {
+
+            }
+        }
+        var parent = {
+            firstName: "Jurgen",
+            lastName: "Klopp",
+            age: 42,
+            say: function() {
+
+            }
+        }
+        var aboutMe = function() {
+            console.log("Xin chao, toi la " + this.firstName + " " + this.lastName + ". Nam nay toi " + this.age + " tuoi.")
+        }
+        teacher.say = aboutMe;
+        student.say = aboutMe;
+        parent.say = aboutMe;
+    </script>
+
+</body>
+
+</html>

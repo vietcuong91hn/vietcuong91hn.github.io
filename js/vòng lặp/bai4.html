@@ -1,34 +1,29 @@
 <html>
+
 <body>
-<script>
-  
-  var students = [
-    { name : "Anna"},
-    { name : "Stan"},
-    { name : "Emma"},
-    { name : "Danny"},
-    { name : "Sena"}
-  ];
-  student.sort(function(a, b){
-      if (a.name.toLowerCase() < b.name.toLowerCase()) {return -1;}
-      if (a.name.toLowerCase() > b.name.toLowerCase()) {return 1;}
-      return 0;
-  });
-  )
-  
-
-    
-  
- 
-
-
- 
-
-
-  
- 
-
-</script>
+    <script>
+        var students = [{
+            name: "Anna"
+        }, {
+            name: "Stan"
+        }, {
+            name: "Emma"
+        }, {
+            name: "Danny"
+        }, {
+            name: "Sena"
+        }];
+        student.sort(function(a, b) {
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                return -1;
+            }
+            if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                return 1;
+            }
+            return 0;
+        });
+    </script>
 
 </body>
+
 </html>
