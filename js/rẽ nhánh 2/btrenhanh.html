@@ -35,9 +35,10 @@
             };
 
         }
+        document.write("Bài 1: Viết season(month) để kiểm tra mùa trong năm</br>");
 
         //Bai 2:
-        function bai2(str) {
+        function subStr(str) {
             if (typeof str == "number") {
                 str = str.toString();
                 if (str.length < 10) {
@@ -57,9 +58,10 @@
                 };
             }
         }
+        document.write("Bài 2: Viết subStr(mảng kí tự chuỗi hoặc số) </br>");
 
         //Bai 3:
-        function bai3(x) {
+        function mark(x) {
             if (typeof x == "number" && x > 0 && x <= 10) {
                 if (x > 0 && x < 3.9) {
                     console.log("Ban duoc diem E");
@@ -81,8 +83,10 @@
                 console.log("Ban phai nhap diem la mot so");
             };
         }
+        document.write("Bai 3: Viết mark(x) x là số điểm trong khoảng 0 > 10</br>");
 
         //Bai 4:
+        document.write("Bai 4: Nhập translate(x) theo mã bên dưới để dịch Hello sang tiếng tương ứng</br>")
         function translate(x = 1) {
             switch (x) {
                 case 01:
@@ -109,17 +113,19 @@
         document.write("05 is Holonunu\' say </br>");
 
         //Bai 5:
+        document.write("Bai 5: Tìm vị trí của phần tử true trong mảng</br>");
         var x = [false, false, false, true, false, true, false, true];
         for (var i = 0; i < x.length; i++) {
             if (x[i] == true) {
-                document.write('vi tri la' + (i + 1));
+                document.write('vi tri la ' + (i + 1));
                 break;
 
             }
         }
-
+document.write("</br>");
 
         //Bai6:
+        document.write("Bai 6: In từ 1 > 100, số lẻ màu đỏ</br>");
         for (var i = 1; i <= 100; i++) {
 
             if (i % 2 == 0) {
