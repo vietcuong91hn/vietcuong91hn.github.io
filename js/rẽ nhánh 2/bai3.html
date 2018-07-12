@@ -1,0 +1,31 @@
+<html>
+
+<body>
+    <script>
+        function bai3(x) {
+            if (typeof x =="number" && x > 0 && x <= 10) {
+            if ( x > 0 && x < 3.9) {
+                console.log("Ban duoc diem E");
+            }
+            else if ( x > 4 && x < 5.4) {
+                console.log("Ban duoc diem D");
+            }
+            else if ( x > 5.5 && x < 6.9) {
+                console.log("Ban duoc diem C");
+            }
+            else if ( x > 7 && x < 8.4) {
+                console.log("Ban duoc diem B");
+            }
+            else {
+                console.log("Ban duoc diem A");
+            };
+            }
+             else if (typeof x !="number") {
+                console.log("Ban phai nhap diem la mot so");
+            };
+        }
+    </script>
+
+</body>
+
+</html>
