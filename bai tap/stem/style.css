@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.banner{
+    position: relative;
+    height: 700px;
+    background: linear-gradient(#cc1b14, #0d10d1);
+}
+.banner img{
+    max-width: 100%;
+    display: block;
+}
+.banner__img{
+    position: absolute;
+    height: 700px;
+}
+.menu__wrap{
+    width: 100%;
+    position: absolute;
+}
+.menu {
+    max-width: 1200px;
+}
+.menu__logo {
+    width: 25%;
+    float: left;
+}
+.menu__bar{
+    width: 100%;
+    /* float: left; */
+    height: 60px;
+    padding-top: 45px;
+
+}
+.underlist{
+    float: right;
+    
+}
+.list{
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+.list li{
+    float: left;
+    width: 200px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgba(0, 0, 255, 0.514);
+    padding: 10px 20px;
+    margin : 0 auto;
+    transition: 1s;
+    
+}
+.list a:hover{
+    color: yellow;
+    border: 2px solid white;
+}
+.content{
+    max-width: 1000px;
+    margin: auto;
+}
+.description{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;
+  
+}
+.description__head{
+    text-transform: uppercase;
+    color: red;
+    font-size: 40px;
+    font-family: "Wendy One";
+    padding: 10px 0 20px 0;
+}
+.description__text{
+    line-height: 25px;
+    color: blue;
+    padding-bottom: 30px;
+
+}
+.description img{
+    width: 100%;
+    padding: 10px;
+}
+.description img:hover{
+    transform: translate(0,-10px);
+}
+.description__img{
+    max-width: 100%;
+    float: left;
+    padding: 10px;
+    padding-bottom: 40px;
+    
+    
+}
+.des__img1{
+    max-width: 33%;
+    float: left;
+    overflow: hidden;
+}
+.des__img2{
+    max-width: 33%;
+    float: left;
+}
+.des__img3{
+    max-width: 33%;
+    float: left;
+}
+.event{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.event__head{
+    text-transform: uppercase;
+    color: red;
+    font-size: 40px;
+    font-family: "Wendy One";
+    padding: 10px 0 20px 0;
+}
+.event__text{
+    line-height: 25px;
+    color: blue;
+    padding-bottom: 30px;
+
+}
+.wwd{
+    text-align: center;
+    line-height: 40px;
+    max-width: 100%;
+    
+}
+.wwd__left{
+    max-width: 45%;
+    float: left;
+}
+.wwd__right{
+    max-width: 45%;
+    float: right;
+}
+.wwd__head{
+    text-transform: uppercase;
+    color: red;
+    font-size: 40px;
+    font-family: "Wendy One";
+    padding: 20px 0 40px 0;
+}
+.wwd__text{
+    line-height: 25px;
+    color: blue;
+    padding-bottom: 30px;
+
+}
+.wwd img{
+    width: 100%;
+}
+.left__imgtop{
+    max-width: 45%;
+    float: left;
+    margin: 5px;
+}
+.left__imgbot{
+    max-width: 45%;
+    float: right;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}
+.register{
+    text-align: center;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.register__head{
+    text-transform: uppercase;
+    color: red;
+    font-size: 40px;
+    font-family: "Wendy One";
+    padding: 10px 0 20px 0;
+}
+.register__text{
+    line-height: 25px;
+    color: blue;
+    padding-bottom: 30px;
+
+}
+.footer{
+    height: 50px;
+    background-color: #cc1b14;
+    color : blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
