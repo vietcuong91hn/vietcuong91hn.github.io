@@ -1,0 +1,87 @@
+<html>
+
+<body>
+    <script>
+        //bai 1:
+        document.write("Bài 1: Nhập factorial(x) với x là 1 số để tinh giai thừa của x</br>");
+        function factorial(x) {
+            var res = 1;
+
+
+            for (let i = 2; i <= x; i++) {
+                res = res * i;
+            }
+            return res;
+
+        }
+
+        //Bài 2 :
+        document.write('Bài 2: Nhập reverseString"chuỗi" để lấy chuỗi đảo ngược của chuỗi vừa nhập</br>');
+        function reverseString(str) {
+            var newString = "";
+            for (i = str.length - 1; i >= 0; i--) {
+                newString = newString + str[i];
+
+            }
+            return newString;
+        }
+
+        //Bài 3:
+        document.write('Bài 3: Nhập duplicated("chuỗi") để nhân chuỗi đó lên 10 lần và ngăn cách bằng dấu "-" </br>');
+        function duplicated(str) {
+            var newStr = str;
+            for (i = 1; i <= 9; i++) {
+                str = newStr + "-" + str;
+            }
+            return str;
+        }
+
+        //Bài 4:
+        document.write("Bài 4: Nhập students để lấy mảng tên các học sinh đã sắp xếp theo thứ tự bảng chữ cái</br>");
+        var students = [{
+            name: "Anna"
+        }, {
+            name: "Stan"
+        }, {
+            name: "Emma"
+        }, {
+            name: "Danny"
+        }, {
+            name: "Sena"
+        }];
+        students.sort(function (a, b) {
+            if (a.name.toLowerCase() < b.name.toLowerCase()) {
+                return -1;
+            }
+            if (a.name.toLowerCase() > b.name.toLowerCase()) {
+                return 1;
+            }
+            return 0;
+        });
+        //Bài 5:
+        document.write("Bài 5: Nhập double để lấy mảng có giá trị gấp đôi mảng num[]</br>");
+        var num = [22, 345, 6, 768];
+        var double = [];
+        for (var i = 0; i < num.length; i++) {
+
+            double.push(num[i] * 2);
+            // console.log(double); 
+        }
+
+        //Bài 6:
+        document.write("Bài 6: Nhập surplus để lấy mảng có giá trị là số dư khi chia cho 2 của mảng num[]</br>");
+        var num = [22, 345, 6, 768];
+        var surplus = [];
+        for (var i = 0; i < num.length; i++) {
+
+            surplus.push(num[i] % 2);
+
+        }
+
+
+
+    </script>
+
+</body>
+
+</html>
