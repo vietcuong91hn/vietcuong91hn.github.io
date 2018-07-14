@@ -1,0 +1,92 @@
+<html>
+
+<body>
+    <script>
+        //Bai 1 :
+        document.write("Bai 1: Nhập largeNumber(a,b) với a và b là 2 giá trị số</br>");
+        function largeNumber(a, b) {
+            if (typeof a == "number" && typeof b == "number") {
+                if (a - b > 0) {
+                    console.log("a la so lon hon");
+                }
+                else if (a - b < 0) {
+                    console.log("b la so lon hon");
+                };
+
+            }
+            else if (typeof a !== "number" && typeof b !== "number") {
+                console.log("ban phai nhap gia tri la so");
+            }
+        }
+
+        //Bai 2:
+        function factorial(a) {
+            if (typeof a == "number" && a > 0) {
+
+                var res = 1;
+
+
+                for (let i = 2; i <= a; i++) {
+                    res = res * i;
+                }
+                return res;
+
+            }
+
+
+            else {
+                console.log("ban phai nhap gia tri la so");
+            }
+
+        }
+        document.write("Bai 2: Nhập factorial(a) với a là 1 số nguyên để tính giai thừa của a</br>")
+
+
+        // Bài 3:
+        document.write("Bai 3: Tạo 1 mảng num = [value 1,value 2, ...], sau đó nhập num1 để lấy giá trị là các số chẵn ở mảng trên rồi sắp xếp theo thứ tự tăng dần </br> ");
+        var num = [23, 54, 76, 98, 212];
+        var num1 = [];
+        for (let i = 0; i < num.length; i++) {
+            if (num[i] % 2 == 0) {
+
+                num1.push(num[i]);
+            }
+
+        }
+        num1.sort(function (a, b) {
+            return a - b;
+        });
+        // console.log(num1);
+
+        //Bai 4:
+        user = [];
+
+        function check(user) {
+
+            if (user[0].length < 1 && user[0].length > 20 && user[1].length > 6 && user[1].length < 32 && user[1] == user[2]) {
+                console.log("User name phai nho hon 20 ky tu va khong duoc de trong");
+            }
+            else if (user[0].length > 1 && user[0].length < 20 && user[1].length > 6 && user[1].length < 32 && user[1] == user[2]) {
+                console.log("Username va Password hop le ");
+            }
+            else if (user[0].length < 1 && user[0].length > 20 && user[1].length > 6 && user[1].length < 32 && user[1] != user[2]) {
+                console.log("Password va Confirm khong giong nhau");
+            }
+            else {
+                console.log("Xin kiem tra lai username va password");
+            }
+        }
+        document.write('Bai 4: </br>');
+        document.write('Nhập username bằng cách : user[0] = "username"</br>');
+        document.write('Nhập password bằng cách : user[1] = "password"</br>');
+        document.write('Nhập cofirm password bằng cách : user[2] = "confirm password"</br>');
+        document.write('Kiểm tra username và password có hợp lệ không bằng cách : check(user)</br>');
+
+
+
+
+    </script>
+
+</body>
+
+</html>
