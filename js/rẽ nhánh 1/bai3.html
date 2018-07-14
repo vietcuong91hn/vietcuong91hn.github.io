@@ -2,10 +2,27 @@
 
 <body>
     <script>
-        var num = [];
-        function bai3(num) {
+        // Bài 3:
+        document.write("Bai 3: Lấy giá trị là các số chẵn ở mảng trên rồi sắp xếp theo thứ tự tăng dần </br> ");
+            var num = [23,54,76,98,212];
+            var num1 = [];
+            for (let i = 0; i< num.length;i++)
+            { if ( num[i]%2==0) {
+               
+                num1.push(num[i]);
+                        }
+               
+            }
+            num1.sort(function(a,b){
+                return a-b;
+            });
+            console.log(num1);
             
-        }
+        
+
+
+
+
     </script>
 
 </body>

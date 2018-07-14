@@ -1,0 +1,37 @@
+<html>
+
+<body>
+    <script>
+
+        //Bai 4:
+        user = [];
+
+        function check(user) {
+
+            if (user[0].length < 1 && user[0].length > 20 && user[1].length > 6 && user[1].length < 32 && user[1] == user[2]) {
+                console.log("User name phai nho hon 20 ky tu va khong duoc de trong");
+            }
+            else if (user[0].length > 1 && user[0].length < 20 && user[1].length > 6 && user[1].length < 32 && user[1] == user[2])
+            {
+                console.log("Username va Password hop le ");
+            }
+            else if (user[0].length < 1 && user[0].length > 20 && user[1].length > 6 && user[1].length < 32 && user[1] != user[2])
+            {
+                console.log("Password va Confirm khong giong nhau");
+            }
+            else {
+                console.log("Xin kiem tra lai username va password");
+            }
+        }
+    document.write('Nhập username bằng cách : user[0] = "username"</br>');
+    document.write('Nhập password bằng cách : user[1] = "password"</br>');
+    document.write('Nhập cofirm password bằng cách : user[2] = "confirm password"</br>');
+    document.write('Kiểm tra username và password có hợp lệ không bằng cách : check(user)</br>');
+
+
+
+    </script>
+
+</body>
+
+</html>

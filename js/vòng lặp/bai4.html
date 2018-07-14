@@ -13,7 +13,7 @@
         }, {
             name: "Sena"
         }];
-        student.sort(function(a, b) {
+    students.sort(function(a, b) {
             if (a.name.toLowerCase() < b.name.toLowerCase()) {
                 return -1;
             }
@@ -22,6 +22,7 @@
             }
             return 0;
         });
+        console.log(students);
     </script>
 
 </body>
