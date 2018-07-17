@@ -4,36 +4,59 @@
     padding: 0;
     
 }
+.wrap{
+    background-image: url("img/legobackground.jpg");
+    background-attachment: fixed;
+}
 .banner{
     position: relative;
-    height: 700px;
-    background: linear-gradient(#cc1b14, #0d10d1);
+
+
 }
 .banner img{
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
-.banner__img{
+/* .banner__img{
     position: absolute;
-    height: 700px;
-}
+
+} */
 .menu__wrap{
     width: 100%;
     position: absolute;
+    z-index: 10;
 }
 .menu {
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 .menu__logo {
-    width: 25%;
+    /* width: 100%; */
     float: left;
+    padding-top: 20px;
+    padding-left: 60px;
+    text-transform: uppercase;
 }
-.menu__bar{
-    width: 100%;
-    /* float: left; */
-    height: 60px;
-    padding-top: 45px;
+.menu__logo a {
+    color: white;
+    text-decoration:none;
+    font-size: 25px;
+    transition: 1s;
+}
+.sup{
+    color: goldenrod;
+}
 
+.menu__logo a:hover{
+    color:goldenrod;
+}
+
+.menu__bar{
+    /* width: 100%; */
+    /* float: left; */
+    /* height: 60px; */
+    /* padding-top: 45px; */
+    padding-top: 25px;
+    padding-right: 30px;
 }
 .underlist{
     float: right;
@@ -46,43 +69,47 @@
 }
 .list li{
     float: left;
-    width: 200px;
-    font-size: 20px;
+    /* width: 200px; */
+    /* font-size: 20px; */
     text-transform: uppercase;
+    padding: 5px;
 }
 .list a{
     text-decoration: none;
     color: white;
-    border: 2px solid rgba(0, 0, 255, 0.514);
+    border: 2px solid orange;
     padding: 10px 20px;
     margin : 0 auto;
     transition: 1s;
     
 }
 .list a:hover{
-    color: yellow;
+    color: orange;
     border: 2px solid white;
 }
 .content{
     max-width: 1000px;
     margin: auto;
+    background: white;
 }
 .description{
     text-align: center;
     line-height: 40px;
     padding-top: 30px;
+    background: darkgoldenrod;
+    
   
 }
 .description__head{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     font-size: 40px;
-    font-family: "Wendy One";
+    font-family: Lobster;
     padding: 10px 0 20px 0;
 }
 .description__text{
     line-height: 25px;
-    color: blue;
+    color: white;
     padding-bottom: 30px;
 
 }
@@ -114,89 +141,132 @@
     max-width: 33%;
     float: left;
 }
-.event{
+.diadiem{
     text-align: center;
     line-height: 40px;
     padding-top: 30px;
+    
+}
+.diadiem__text{
+    color: black;
+}
+.event{
+    text-align: center;
+    line-height: 40px;
+    padding: 5px;
+    padding-top: 30px;
+    background: goldenrod;
+    /* background-image: url("img/legobackground.jpg");
+    background-attachment: fixed; */
 }
 .event__head{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     font-size: 40px;
-    font-family: "Wendy One";
+    font-family: Lobster;
     padding: 10px 0 20px 0;
 }
 .event__text{
     line-height: 25px;
-    color: blue;
+    color: white;
     padding-bottom: 30px;
-
+    text-align: left;
+    padding-left: 20px;
 }
 .wwd{
     text-align: center;
     line-height: 40px;
     max-width: 100%;
+   
     
 }
 .wwd__left{
-    max-width: 45%;
+    max-width: 50%;
+}
+.left__img{
     float: left;
+    max-width: 100%;
+}
+.img1{
+    max-width: 33%;
+    float: left;
+    padding: 5px;
 }
 .wwd__right{
-    max-width: 45%;
+    max-width: 50%;
     float: right;
+
 }
 .wwd__head{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     font-size: 40px;
-    font-family: "Wendy One";
+    font-family: Lobster;
     padding: 20px 0 40px 0;
 }
 .wwd__text{
     line-height: 25px;
-    color: blue;
+    color: black;
     padding-bottom: 30px;
 
 }
 .wwd img{
     width: 100%;
 }
-.left__imgtop{
-    max-width: 45%;
-    float: left;
-    margin: 5px;
-}
-.left__imgbot{
-    max-width: 45%;
-    float: right;
-    margin: 5px;
-}
+
 .clear{
     clear: both;
+}
+.diengia{
+    text-align: center;
+    background: goldenrod;
+    
+}
+.diengia img{
+    width: 100%;
+}
+.diengia__img{
+    float: left;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+.diengia1{
+    float: left;
+    max-width: 33%;
+    padding: 35px;
+}
+.diengia2{
+    float: left;
+    max-width: 33%;
+    padding: 35px;
+}
+.diengia3{
+    float: left;
+    max-width: 33%;
+    padding: 35px;
 }
 .register{
     text-align: center;
     line-height: 40px;
     padding-top: 30px;
 }
-.register__head{
+.head{
     text-transform: uppercase;
-    color: red;
+    color: blue;
     font-size: 40px;
-    font-family: "Wendy One";
+    font-family: Lobster;
     padding: 10px 0 20px 0;
 }
 .register__text{
     line-height: 25px;
-    color: blue;
+    color: black;
     padding-bottom: 30px;
 
 }
 .footer{
     height: 50px;
-    background-color: #cc1b14;
-    color : blue;
+    background-color: goldenrod;
+    color : white;
     text-align: center;
     display: flex;
     justify-content: center;
