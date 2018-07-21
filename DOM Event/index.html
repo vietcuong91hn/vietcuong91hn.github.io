@@ -5,60 +5,80 @@
     <title> Calculator </title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <LINK REL="SHORTCUT ICON"  href="icon.jpg">
 
 
 </head>
 
 <body>
+    <div class="wrap">
+        <div id="screen" class="screen"></div> 
 
+   
+        <div class="buttoncal">
+            <div class="ac">
+                <input type="button" class="red" id="ac" onclick="ac()" value="AC">
+            </div>
+            <div class="plus-sub">
+                <input type="button" class="gold" id="plus-sub" onclick="plus-sub()" value="+/-">
+            </div>
+            <div class="percent">
+                <input type="button" class="gold" id="percent" onclick="percent()" value="%">
+            </div>
+            <div class="btDiv">
+                <input type="button" class="gold" id="btDiv" onclick="btDiv(this)" value="/">
+            </div>
+            <div class="n7">
+                <input type="button" id="n7" id ="number" onclick="n7(7)" value="7">
+            </div>
+            <div class="n8">
+                <input type="button" id="n8" id ="number" onclick="n8(8)" value="8">
+            </div>
+            <div class="n9">
+                <input type="button" id="n9" id ="number" onclick="n9(9)" value="9">
+            </div>
+            <div class="btMul">
+                <input type="button" class="gold" id="btMul" onclick="btMul(this)" value="x">
+            </div>
+            <div class="n4">
+                <input type="button" id="n4" id ="number" onclick="n4(4)" value="4">
+            </div>
+            <div class="n5">
+                <input type="button" id="n5" id ="number" onclick="n5(5)" value="5">
+            </div>
+            <div class="n6">
+                <input type="button" id="n6" id ="number" onclick="n6(6)" value="6">
+            </div>
+            <div class="btSub">
+                <input type="button" class="gold" id="btSub" onclick="btSub(this)" value="-"> 
+            </div>
 
-    <div class="content">
-        <div class="n0">
-            <button id="n0" onclick="n0()">0</button>
-        </div>
-        <div class="n1">
-            <button id="n1" onclick="n1()">1</button>
-        </div>
-        <div class="n2">
-            <button id="n2" onclick="n2()">2</button>
-        </div>
-        <div class="n3">
-            <button id="n3" onclick="n3()">3</button>
-        </div>
-        <div class="n4">
-            <button id="n4" onclick="n4()">4</button>
-        </div>
-        <div class="n5">
-            <button id="n5" onclick="n5()">5</button>
-        </div>
-        <div class="n6">
-            <button id="n6" onclick="n6()">6</button>
-        </div>
-        <div class="n7">
-            <button id="n7" onclick="n7()">7</button>
-        </div>
-        <div class="n8">
-            <button id="n8" onclick="n8()">8</button>
-        </div>
-        <div class="n9">
-            <button id="n9" onclick="n9()">9</button>
-        </div>
-        <div class="nplus">
-            <button id="nplus" onclick="nplus()">+</button>
-        </div>
-        <div class="nsub">
-            <button id="nsub" onclick="nsub()">-</button>
-        </div>
-        <div class="nsqr">
-            <button id="nsqr" onclick="nsqr()">*</button>
-        </div>
-        <div class="ndiv">
-            <button id="ndiv" onclick="ndiv()">/</button>
-        </div>
-        <div class="nequal">
-            <button id="nequal" onclick="nequal()">=</button>
+            <div class="n1">
+                <input type="button" id="n1" id ="number" onclick="n1(1)" value="1">
+            </div>
+            <div class="n2">
+                <input type="button" id="n2" id ="number" onclick="n2(2)" value="2">
+            </div>
+            <div class="n3">
+                <input type="button" id="n3" id ="number" onclick="n3(3)" value="3">
+            </div>
+            <div class="btPlus">
+                <input type="button" class="gold" id="btPlus" onclick="btPlus(this)" value="+">
+            </div>
+
+            <div class="n0">
+                <input type="button"  class="red" id="n0" id ="number" onclick="n0(0)" value="0">
+            </div>
+            <div class="dot">
+                <input type="button" class="gold" id="dot" onclick="dot()" value=",">
+            </div>
+            <div class="btEqual">
+                <input type="button" class="red" id="btEqual" onclick="btEqual()" value="=">
+            </div>
+
         </div>
     </div>
+
 
     <script src="js.js"></script>
 </body>
