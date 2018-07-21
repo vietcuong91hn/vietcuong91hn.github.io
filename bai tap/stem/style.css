@@ -5,22 +5,29 @@
     
 }
 .wrap{
-    background-image: url("img/legobackground.jpg");
-    background-attachment: fixed;
+    /* background-image: url("img/legobackground.jpg");
+    background-attachment: fixed; */
 }
 .banner{
     position: relative;
 
 
 }
+.banner__side{
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 80px;
+    background: darkgoldenrod;
+    opacity:0.5 ;
+    top: 0;
+    left: 0;
+}
 .banner img{
     width: 100%;
     display: block;
 }
-/* .banner__img{
-    position: absolute;
 
-} */
 .menu__wrap{
     width: 100%;
     position: absolute;
@@ -87,18 +94,27 @@
     color: orange;
     border: 2px solid white;
 }
-.content{
-    max-width: 1000px;
+/* .content{
+    max-width: 800px;
     margin: auto;
     background: white;
-}
+} */
 .description{
+   
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("img/lgbg.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    /* height: 500px; */
+  
+}
+.des__wrap{
+    margin: auto;
+    max-width: 800px;
     text-align: center;
     line-height: 40px;
-    padding-top: 30px;
-    background: darkgoldenrod;
-    
-  
 }
 .description__head{
     text-transform: uppercase;
@@ -109,7 +125,7 @@
 }
 .description__text{
     line-height: 25px;
-    color: white;
+    color: black;
     padding-bottom: 30px;
 
 }
@@ -122,7 +138,7 @@
 }
 .description__img{
     max-width: 100%;
-    float: left;
+    /* float: left; */
     padding: 10px;
     padding-bottom: 40px;
     
@@ -142,22 +158,45 @@
     float: left;
 }
 .diadiem{
-    text-align: center;
     line-height: 40px;
     padding-top: 30px;
-    
+    padding-bottom: 30px;
+    background-image: url("img/bishub.jpg");
+    /* background-attachment: fixed; */
+    background-size: 100%;
+    position: relative;
+}
+.diadiem__wrap{
+    text-align: center;
+    margin: auto;
+    z-index: 3;
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
 }
 .diadiem__text{
-    color: black;
+    color: white;
+    font-size: 20px;
+    background-color: #0e0e0e61;
 }
 .event{
     text-align: center;
     line-height: 40px;
     padding: 5px;
     padding-top: 30px;
+    /* background-image: url("img/lgbg.png");
+    background-attachment: fixed;
+    background-size: 100%; */
     background: goldenrod;
-    /* background-image: url("img/legobackground.jpg");
-    background-attachment: fixed; */
+}
+.event__wrap{
+    max-width: 800px;
+    margin: auto;
+}
+.event background{
+    opacity: 0.5;
 }
 .event__head{
     text-transform: uppercase;
@@ -168,20 +207,22 @@
 }
 .event__text{
     line-height: 25px;
-    color: white;
+    color: black;
     padding-bottom: 30px;
     text-align: left;
     padding-left: 20px;
 }
 .wwd{
-    text-align: center;
+    background: goldenrod;
+}
+.wwd__wrap{
     line-height: 40px;
-    max-width: 100%;
-   
-    
+    max-width: 1000px; 
+    margin: auto;
 }
 .wwd__left{
-    max-width: 50%;
+    max-width: 100%;
+    text-align: center;
 }
 .left__img{
     float: left;
@@ -193,8 +234,7 @@
     padding: 5px;
 }
 .wwd__right{
-    max-width: 50%;
-    float: right;
+    max-width: 100%;
 
 }
 .wwd__head{
@@ -202,12 +242,13 @@
     color: blue;
     font-size: 40px;
     font-family: Lobster;
-    padding: 20px 0 40px 0;
+    padding: 20px 0 20px 0;
+    text-align: center;
 }
 .wwd__text{
     line-height: 25px;
     color: black;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 
 }
 .wwd img{
@@ -218,9 +259,15 @@
     clear: both;
 }
 .diengia{
+    background-image: url("background2.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: auto;
+}
+.diengia__wrap{
+    max-width: 800px;
+    margin: auto;
     text-align: center;
-    background: goldenrod;
-    
 }
 .diengia img{
     width: 100%;
@@ -232,23 +279,29 @@
 }
 .diengia1{
     float: left;
-    max-width: 33%;
+    max-width: 25%;
     padding: 35px;
 }
 .diengia2{
     float: left;
-    max-width: 33%;
+    max-width: 25%;
     padding: 35px;
 }
 .diengia3{
     float: left;
-    max-width: 33%;
+    max-width: 25%;
+    padding: 35px;
+}
+.diengia4{
+    float: left;
+    max-width: 25%;
     padding: 35px;
 }
 .register{
     text-align: center;
     line-height: 40px;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 .head{
     text-transform: uppercase;
