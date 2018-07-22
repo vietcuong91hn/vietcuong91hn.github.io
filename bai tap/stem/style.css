@@ -5,7 +5,7 @@
     
 }
 .wrap{
-    background-image: url("background.jpg");
+    background-image: url("background2.jpg");
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -195,9 +195,10 @@
     text-align: center;
     line-height: 40px;
     padding-top: 30px;
-    background-image: url("lg.jpg");
+    background-image: url("background2.jpg");
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-size: 100%;
+    /* background-repeat: repeat; */
     
 }
 .event__wrap{
@@ -305,9 +306,10 @@
     clear: both;
 }
 .diengia{
-    background-image: url("lg.jpg");
+    background-image: url("background2.jpg");
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-size: 100%;
+    /* background-repeat: repeat; */
     margin: auto;
 }
 .diengia__wrap{
