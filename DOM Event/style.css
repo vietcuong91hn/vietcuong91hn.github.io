@@ -15,7 +15,7 @@ h1 {
     margin: auto;
     padding-top: 100px;
 }
-.screen{
+#screen{
     height: 100px;
     width: 300px;
     border: solid 2px goldenrod;
@@ -46,7 +46,7 @@ h1 {
     background-color: white;
     color: red;
 }
-.buttoncal .n0 input{
+.buttoncal .bt0 input{
     width: 50%;
 }
 .gold{

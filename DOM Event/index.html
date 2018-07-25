@@ -12,75 +12,87 @@
 
 <body>
     <div class="wrap">
-        <div id="screen" class="screen"></div> 
+        <div id="screen"></div> 
 
    
         <div class="buttoncal">
             <div class="ac">
-                <input type="button" class="red" id="ac" onclick="ac()" value="AC">
+                <input type="button" class="red" id="ac" onclick="clearDisplay()" value="AC">
+            </div>
+            <div class="factorial">
+                <input type="button" class="gold" id="factorial" onclick="pressAbsolute()" value="|x|">
+            </div>
+            <div class="square">
+                <input type="button" class="gold" id="square" onclick="pressSquare()" value="x^2">
+            </div>
+            <div class="squareroot">
+                <input type="button" class="gold" id="squareroot" onclick="pressSquareRoot()" value="&radic;">
+            </div>
+            <div class="c">
+                <input type="button" class="red" id="c" onclick="clearNumber()" value="C">
             </div>
             <div class="plus-sub">
-                <input type="button" class="gold" id="plus-sub" onclick="plus-sub()" value="+/-">
+                <input type="button" class="gold" id="plus-sub" onclick="pressNegativeNum()" value="+/-">
             </div>
-            <div class="percent">
-                <input type="button" class="gold" id="percent" onclick="percent()" value="%">
+            <div class="btpercent">
+                <input type="button" class="gold" id="btpercent" onclick="pressPercent()" value="%">
             </div>
-            <div class="btDiv">
-                <input type="button" class="gold" id="btDiv" onclick="btDiv(this)" value="/">
+            <div class="btdiv">
+                <input type="button" class="gold" id="btdiv" onclick="pressNum(this.value)" value="/">
             </div>
-            <div class="n7">
-                <input type="button" id="n7" id ="number" onclick="n7(7)" value="7">
+            <div class="bt7">
+                <input type="button" id="bt7" onclick="pressNum(this.value)" value="7">
             </div>
-            <div class="n8">
-                <input type="button" id="n8" id ="number" onclick="n8(8)" value="8">
+            <div class="bt8">
+                <input type="button" id="bt8" onclick="pressNum(this.value)" value="8">
             </div>
-            <div class="n9">
-                <input type="button" id="n9" id ="number" onclick="n9(9)" value="9">
+            <div class="bt9">
+                <input type="button" id="bt9" onclick="pressNum(this.value)" value="9">
             </div>
-            <div class="btMul">
-                <input type="button" class="gold" id="btMul" onclick="btMul(this)" value="x">
+            <div class="btmul">
+                <input type="button" class="gold" id="btmul" onclick="pressNum(this.value)" value="*">
             </div>
-            <div class="n4">
-                <input type="button" id="n4" id ="number" onclick="n4(4)" value="4">
+            <div class="bt4">
+                <input type="button" id="bt4" onclick="pressNum(this.value)" value="4">
             </div>
-            <div class="n5">
-                <input type="button" id="n5" id ="number" onclick="n5(5)" value="5">
+            <div class="bt5">
+                <input type="button" id="bt5" onclick="pressNum(this.value)" value="5">
             </div>
-            <div class="n6">
-                <input type="button" id="n6" id ="number" onclick="n6(6)" value="6">
+            <div class="bt6">
+                <input type="button" id="bt6" onclick="pressNum(this.value)" value="6">
             </div>
-            <div class="btSub">
-                <input type="button" class="gold" id="btSub" onclick="btSub(this)" value="-"> 
-            </div>
-
-            <div class="n1">
-                <input type="button" id="n1" id ="number" onclick="n1(1)" value="1">
-            </div>
-            <div class="n2">
-                <input type="button" id="n2" id ="number" onclick="n2(2)" value="2">
-            </div>
-            <div class="n3">
-                <input type="button" id="n3" id ="number" onclick="n3(3)" value="3">
-            </div>
-            <div class="btPlus">
-                <input type="button" class="gold" id="btPlus" onclick="btPlus(this)" value="+">
+            <div class="btmin">
+                <input type="button" class="gold" id="btmin" onclick="pressNum(this.value)" value="-"> 
             </div>
 
-            <div class="n0">
-                <input type="button"  class="red" id="n0" id ="number" onclick="n0(0)" value="0">
+            <div class="bt1">
+                <input type="button" id="bt1" onclick="pressNum(this.value)" value="1">
             </div>
-            <div class="dot">
-                <input type="button" class="gold" id="dot" onclick="dot()" value=",">
+            <div class="bt2">
+                <input type="button" id="bt2" onclick="pressNum(this.value)" value="2">
             </div>
-            <div class="btEqual">
-                <input type="button" class="red" id="btEqual" onclick="btEqual()" value="=">
+            <div class="bt3">
+                <input type="button" id="bt3" onclick="pressNum(this.value)" value="3">
+            </div>
+            <div class="btplus">
+                <input type="button" class="gold" id="btplus" onclick="pressNum(this.value)" value="+">
+            </div>
+
+            <div class="bt0">
+                <input type="button"  class="red" id="n0" onclick="pressNum(this.value)" value="0">
+            </div>
+            <div class="btdot">
+                <input type="button" class="gold" id="dot" onclick="pressNum(this.value)" value=".">
+            </div>
+            <div class="btequal">
+                <input type="button" class="red" id="btequal" onclick="equal(this.value)" value="=">
             </div>
 
         </div>
     </div>
 
 
-    <script src="js.js"></script>
+    <script src="java.js"></script>
 </body>
 
 
