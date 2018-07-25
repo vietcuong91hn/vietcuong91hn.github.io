@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Liverpool 's Quiz!</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <LINK REL="SHORTCUT ICON" href="img/icon.png">
+        
+
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="banner__wrap">
+            <div class="banner">
+                <img src="img/background.jpg">
+            </div>
+
+
+            <div class="quiz">
+                <div class="question">
+                    <p>
+                        Câu hỏi 1 : Mohamed Salah mùa đầu tiên thi đấu ở Liverpool ghi được bao nhiêu bàn thắng?
+                    </p>
+                </div>
+                <div class="answer">
+                    <div class="answerA">
+                        <input type="button" id="ansA" onclick="ans(this.value)" value=" Đáp án A : 20 bàn">
+                    </div>
+                    <div class="answerB">
+                        <input type="button" id="ansB" onclick="ans(this.value)" value=" Đáp án B : 22 bàn">
+                    </div>
+                    <div class="answerC">
+                        <input type="button" id="ansC" onclick="ans(this.value)" value=" Đáp án C : 30 bàn">
+                    </div>
+                    <div class="answerD">
+                        <input type="button" id="ansD" onclick="ans(this.value)" value=" Đáp án D : 32 bàn">
+                    </div>
+                    <div class="submit">
+                        <input type="button" id="submit" onclick="submit()" value="Trả lời">
+                    </div>
+
+                    <div class="clear"></div>
+                    
+                </div>
+                
+            </div>
+            <div id="screen">
+
+                </div>
+        </div>
+    </div>
+
+    <script src="java.js"></script>
+
+</body>
+
+
+</html>
