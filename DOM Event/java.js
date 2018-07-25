@@ -35,5 +35,5 @@ function pressSquare(_this) {
 }
 function pressSquareRoot(_this) {
     var sqroot = screen.textContent;
-    screen.innerText = Math.sqrt(sqroot);
+    screen.innerText = Math.sqrt(sqroot).toFixed(5);
 }
