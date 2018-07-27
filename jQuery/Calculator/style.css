@@ -1,0 +1,70 @@
+body {
+    margin: auto;
+    max-width: 800px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+.wrap{
+    max-width: 600px;
+    margin: auto;
+    /* padding-top: 20px; */
+}
+#screen{
+    height: 100px;
+    width: 300px;
+    border: solid 2px goldenrod;
+    border-radius: 20px;
+    font-size: 50px;
+    background: gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttoncal{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.buttoncal input{
+    width: 25%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+    background-color: gray;
+    font-size: 20px;
+}
+.buttoncal input:active{
+    background-color: white;
+    color: red;
+}
+.buttoncal .bt0 input{
+    width: 50%;
+}
+.gold{
+    background-color: goldenrod !important;
+    color: white;
+}
+.gold:active{
+    background-color: white !important;
+    color: red !important;
+}
+
+.red {
+    background-color: darkred !important;
+    color: white !important;
+}
+.red:active {
+    background-color: white !important;
+    color: red !important;
+}
+.clear{
+    clear: both;
+}
