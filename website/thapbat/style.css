@@ -162,7 +162,7 @@
     max-width: 33.3%;
     padding: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     [class*=bienchung__img]{
         float: none;
@@ -212,7 +212,7 @@
     max-width: 70%;
     float: left;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     [class*=bienchung__top]{
         float: none;
@@ -324,7 +324,7 @@
     background: black;
     color: white;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     [class*=sanpham__left]{
         float: none;
