@@ -426,7 +426,9 @@
 .lienhe__img{
     max-width: 50%;
     float: left;
-    padding-left: 50px;
+}
+.lienhe__img img{
+    width: 100%;
 }
 .lienhe__form{
     max-width: 50%;
@@ -435,7 +437,7 @@
 }
 .head{
     text-transform: uppercase;
-    color: #015a03;
+    color: #eefd02;
     font-size: 40px;
     font-family: Lobster;
     padding: 30px 30px 20px 0;
@@ -451,7 +453,36 @@
     left: 50px;
     content: '';
 }
+.backtotop{
+    position: fixed;
+    bottom: 0;
+    right: -50px;
+    z-index: 10;
+    opacity:0.2;
+}
+.backtotop img{
+    width: 50%;
+}
+.facebook{
+    position: fixed;
+    bottom: 120;
+    right: -50px;
+    z-index: 10;
+}
+.facebook img{
+    width: 50%;
+}
+.call{
+    position: fixed;
+    bottom: 240;
+    right: -50px;
+    z-index: 10;
+}
+.call img{
+    width: 50%;
+}
 .footer{
+    width: 100%;
     height: 100px;
     background-color: #023b1b;
     color : #eefd02;
@@ -459,6 +490,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+}
+.footer__imgwrap img{
+    height: 100px;
 }
 @media only screen and (max-width: 736px) {
     /* For mobile phones: */
@@ -466,6 +503,9 @@
         float: none;
         max-width: unset;
         padding-left: 0;
+    }
+    [class*=lienhe__img]{
+        visibility: hidden;
     }
    
     
