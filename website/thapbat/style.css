@@ -162,6 +162,26 @@
     max-width: 33.3%;
     padding: 35px;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=bienchung__img]{
+        float: none;
+    }
+    [class*=bienchung1]{
+        max-width: unset;
+        float: none;
+    }
+    [class*=bienchung2]{
+        float: none;
+        max-width: unset;
+    }
+    [class*=bienchung3]{
+        
+        float: none;
+        max-width: unset;
+    }
+    
+}
 .h3{
     font-size: 30px;
 
@@ -190,6 +210,17 @@
 .inside__text{
     max-width: 70%;
     float: left;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*=bienchung__top]{
+        float: none;
+        max-width: unset;
+    }
+    [class*=bienchung__bot]{
+        max-width: unset;
+        float: none;
+    }
 }
 .anhsanpham{
     /* padding-top: 40px; */
@@ -321,7 +352,7 @@
     padding-bottom: 40px;
 }
 .uudiem img{
-    width: 100%;
+    width: 70%;
 }
 
 
