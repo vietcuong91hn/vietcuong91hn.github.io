@@ -265,10 +265,12 @@
 .sanpham__left{
     max-width: 50%;
     float: left;
+    padding: 10px;
 }
 .sanpham__right{
     max-width: 50%;
     float: left;
+    padding: 10px;
 }
 .thanhphan{
    background: #3faf41b8;
