@@ -122,11 +122,11 @@
     border: 2px solid white;
 }
 .content{
-    background: #015a0359;
+    background: #3faf41b8;
     margin: auto;
 }
 .bienchung{
-    background:#015a0359;
+    background:#3faf41b8;
     margin: auto;
 }
 .bienchung__wrap{
@@ -202,6 +202,7 @@
 .bienchung__inside{
     max-width: 100%;
     float: left;
+    padding: 5px;
 }
 .inside__img{
     max-width: 30%;
@@ -269,7 +270,7 @@
     float: left;
 }
 .thanhphan{
-   background: #015a0359;
+   background: #3faf41b8;
 }
 .sanpham__img{
     max-width: 100%;
@@ -304,6 +305,13 @@
     max-width: 800px;
     text-align: center;
 }
+.congdung__anhdong{
+    margin: auto;
+    text-align: center;
+}
+.congdung__anhdong img{
+    width: 70%;
+}
 .button{
     height: 50px;
     background-color: #015a03;
@@ -321,7 +329,7 @@
     line-height: 40px;
     padding-top: 30px; 
     width: 100%;
-    background: #015a0359;
+    background: #3faf41b8;
 }
 
 .congdung__content{
@@ -333,17 +341,21 @@
     width: 100%;
 }
 
+
+
 .uudiem{
     line-height: 40px;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     padding-bottom: 30px;
-    position: relative;
-    background: #015a0359;
+   
+    background: #3faf41b8;
 }
 .uudiem__content{
     text-align: center;
     margin: auto;
     z-index: 3;
+    position: relative;
+   
 }
 .uudiem__wrap{
     max-width: 800px;
@@ -352,15 +364,16 @@
     padding-bottom: 40px;
 }
 .uudiem img{
-    width: 70%;
+    width: 100%;
 }
+
 
 
 .clear{
     clear: both;
 }
 .danhgia{
-    background: #015a0359;
+    background: #3faf41b8;
 }
 .danhgia__wrap{
     max-width: 800px;
@@ -373,7 +386,7 @@
     line-height: 30px;
 }
 .lienhe{
-    background: #015a0359;
+    background: #3faf41b8;
     padding-bottom: 30px;
 }
 .lienhe__wrap{
