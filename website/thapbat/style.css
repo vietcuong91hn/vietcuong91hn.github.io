@@ -457,4 +457,14 @@
     justify-content: center;
     align-items: center;
 }
+@media only screen and (max-width: 375px) {
+    /* For mobile phones: */
+    [class*=lienhe__form]{
+        float: none;
+        max-width: unset;
+        padding-left: 0;
+    }
+   
+    
+}
 
