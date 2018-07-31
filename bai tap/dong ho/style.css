@@ -1,0 +1,6 @@
+.clock__wrap{
+    max-width: 500px;
+    max-height: 500px;
+    background-color: rgba(187, 151, 31, 0.979);
+    border-radius: 50%;
+}

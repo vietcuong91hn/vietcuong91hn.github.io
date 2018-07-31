@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background: brown;
+}
+.content{
+    max-width: 800px;
+}
+.top1{
+    float: left;
+    max-width: 100%;
+    padding: 20px;
+}
+.top1__left{
+    max-width: 50%;
+    background: gray;
+    height: 50px;
+}
+.top1__right{
+    max-width: 50%;
+    background: gray;
+    height: 50px;
+}

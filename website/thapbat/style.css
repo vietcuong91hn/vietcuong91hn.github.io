@@ -162,31 +162,23 @@
     max-width: 33.3%;
     padding: 35px;
 }
-@media only screen and (max-width: 736px) {
-    /* For mobile phones: */
-    [class*=bienchung__img]{
-        float: none;
-    }
-    [class*=bienchung1]{
-        max-width: unset;
-        float: none;
-    }
-    [class*=bienchung2]{
-        float: none;
-        max-width: unset;
-    }
-    [class*=bienchung3]{
-        
-        float: none;
-        max-width: unset;
-    }
-    
-}
+
 .h3{
     font-size: 30px;
     color:#023b1b;
 
 }
+@keyframes h4text{
+    0%{background: black;color: red;}
+    25%{background: red;color: black;}
+    50%{background: #015a03;color: #eefd02;}
+    100%{background: #eefd02;color: #015a03;}
+}
+h4{
+    font-size: 25px;
+    animation: h4text 5s ease infinite;
+}
+
 .bienchung__text{
     max-width: 100%;
     padding-top: 40px;
@@ -213,28 +205,10 @@
     max-width: 70%;
     float: left;
 }
-@media only screen and (max-width: 736px) {
-    /* For mobile phones: */
-    [class*=bienchung__top]{
-        float: none;
-        max-width: unset;
-    }
-    [class*=bienchung__bot]{
-        max-width: unset;
-        float: none;
-    }
-}
-.anhsanpham{
-    /* padding-top: 40px; */
-}
+
 .anhsanpham img{
     width: 100%;
 }
-/* .bienchung4{
-    float: left;
-    max-width: 25%;
-    padding: 35px;
-} */
 .sanpham{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -251,7 +225,6 @@
     font-size: 40px;
     font-family: Lobster;
     padding: 10px 0 20px 0;
-    /* text-align: center; */
 }
 .sanpham__text{
     line-height: 25px;
@@ -271,6 +244,10 @@
     max-width: 50%;
     float: left;
     padding: 10px;
+}
+.sanpham__right iframe{
+    width: 400px;
+    height: 400px;
 }
 .thanhphan{
    background: #3faf41b8;
@@ -327,27 +304,6 @@
     background: black;
     color: white;
 }
-@media only screen and (max-width: 736px) {
-    /* For mobile phones: */
-    [class*=sanpham__left]{
-        float: none;
-        max-width: unset;
-    }
-    [class*=sanpham__right]{
-        max-width: unset;
-        float: none;
-    }
-    /* [class*=thanhphan__wrap]{
-        float: none;
-    }
-    [class*=thanhphan__img]{
-        max-width: unset;
-        float: none;
-    } */
-    [class*=head]{
-        font-size: 25px;
-    }
-}
 .congdung{
     text-align: center;
     line-height: 40px;
@@ -364,9 +320,6 @@
 .congdung img{
     width: 100%;
 }
-
-
-
 .uudiem{
     line-height: 40px;
     /* padding-top: 30px; */
@@ -390,9 +343,6 @@
 .uudiem img{
     width: 100%;
 }
-
-
-
 .clear{
     clear: both;
 }
@@ -411,7 +361,7 @@
 }
 .lienhe{
     background: #3faf41b8;
-    padding-bottom: 30px;
+    padding-bottom: 100px;
 }
 .lienhe__wrap{
     text-align: center;
@@ -426,6 +376,7 @@
 .lienhe__img{
     max-width: 50%;
     float: left;
+    padding: 10px;
 }
 .lienhe__img img{
     width: 100%;
@@ -434,6 +385,15 @@
     max-width: 50%;
     float: left;
     padding-left: 50px;
+}
+.lienhe__form iframe{
+    width: 400px;
+    height: 400px;
+}
+.map iframe{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
 }
 .head{
     text-transform: uppercase;
@@ -499,15 +459,105 @@
 }
 @media only screen and (max-width: 736px) {
     /* For mobile phones: */
-    [class*=lienhe__form]{
-        float: none;
-        max-width: unset;
-        padding-left: 0;
-    }
-    [class*=lienhe__img]{
+    .menu__logo{
         visibility: hidden;
     }
+    .menu__wrap{
    
+    }
+    .list li a{
+        
+        font-size: 10px;
+        float: none;
+    }
+    .list li{
+        float: none;
+    }
+    .banner__side{
+        visibility: hidden;
+    }
+    .banner__button{
+        visibility: hidden;
+    }
+    [class*=bienchung__img]{
+        float: none;
+    }
+    [class*=bienchung1]{
+        max-width: unset;
+        float: none;
+    }
+    [class*=bienchung2]{
+        float: none;
+        max-width: unset;
+    }
+    [class*=bienchung3]{
+        
+        float: none;
+        max-width: unset;
+    }
+    [class*=bienchung__top]{
+        float: none;
+        max-width: unset;
+    }
+    [class*=bienchung__bot]{
+        max-width: unset;
+        float: none;
+    }
+    [class*=sanpham__left]{
+        float: none;
+        max-width: unset;
+    }
+    [class*=sanpham__right]{
+        max-width: unset;
+        float: none;
+    }
+    [class*=head]{
+        font-size: 22px;
+    }
+    .sanpham__right iframe{
+        width: 300px;
+        height: 300px;
+    }
+    [class*=lienhe__form]{
+        visibility: hidden;
+    }
+    [class*=lienhe__img]{
+       max-width: unset;
+    }
+    .map iframe{
+        width: 300px;
+        height: 300px;
+    }
+    [class*=footer]{
+        height: 50px;
+        font-size: 10px;
+       
+    }
+    [class*=footer__imgwrap]{
+        visibility: hidden;
+    }
+    .call img{
+        width: 30%;
+        
+    
+    }
+    .call {
+        right: -135px;
+        bottom: 140px;
+    }
+    .facebook img{
+        width: 30%;
+        
+    
+    }
+    .facebook{
+        bottom: 70px;
+        right: -135px;
+    }
+    .backtotop {
+        width: 30%;
+       
+    }
+    
     
 }
-

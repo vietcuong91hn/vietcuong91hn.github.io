@@ -178,14 +178,14 @@
 	font-size: 12px;
 }
 .content2{
-	max-width: 100%;
-	background-color: white;
+	background-color: aqua;
 	margin: auto;
 }
 .content2__inside{
 	max-width: 1000px;
 	margin: auto;
 	position: relative;
+	height: 150px;
 	
 }
 .content2__text{
@@ -263,7 +263,15 @@
 	color: white;
 	height: 200px;
 	font-size: 10px;
+	position: relative;
 
+}
+.content3__box1inside{
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 .content3__box2{
 	width: 19.5%; margin: 1px;
