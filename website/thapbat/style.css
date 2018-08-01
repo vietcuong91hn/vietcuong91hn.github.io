@@ -13,15 +13,13 @@
 .banner{
     position: relative;
 
-
 }
 .banner__side{
-    position: absolute;
+    position: fixed;
     z-index: 5;
     width: 100%;
     height: 80px;
-    background: green;
-    opacity:0.5 ;
+    background: #023b1b;
     top: 0;
     left: 0;
 }
@@ -31,8 +29,8 @@
 }
 .banner__button{
     position: absolute;
-    top: 50%;
-    left: 60%;
+    top: 90%;
+    left: 50%;
     transform: translate(-50%,-50%);
 }
 @keyframes kfinput {
@@ -54,35 +52,22 @@
 }
 .menu__wrap{
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 10;
-}
+    top: 0;
+}   
 
 .menu__logo {
     float: left;
     padding-top: 1px;
     padding-left: 60px;
     text-transform: uppercase;
-    max-width: 10%;
+    width: 150px;
 }
-.logo img{
+.menu__logo img{
     max-width: 100%;
 }
-.menu__logo a {
-    background: #eefd02;
-    color: #015a03;
-    text-decoration:none;
-    font-size: 20px;
-    transition: 1s;
-     
-}
-.sup{
-    color: goldenrod;
-}
 
-.menu__logo a:hover{
-    color:goldenrod;
-}
 
 .menu__bar{
     /* width: 100%; */
@@ -123,11 +108,11 @@
     border: 2px solid #eefd02;
 }
 .content{
-    background: #3faf41b8;
+    background: white;
     margin: auto;
 }
 .bienchung{
-    background:#3faf41b8;
+    background:white;
     margin: auto;
 }
 .bienchung__wrap{
@@ -150,17 +135,17 @@
 }
 .bienchung1{
     float: left;
-    max-width: 33.3%;
+    max-width: 33.33%;
     padding: 35px;
 }
 .bienchung2{
     float: left;
-    max-width: 33.3%;
+    max-width: 33.33%;
     padding: 35px;
 }
 .bienchung3{
     float: left;
-    max-width: 33.3%;
+    max-width: 33.33%;
     padding: 35px;
 }
 
@@ -205,8 +190,12 @@ h4{
 .inside__text{
     max-width: 70%;
     float: left;
+    text-align: left;
+    padding: 10px;
 }
-
+.anhsanpham {
+    position: relative;
+}
 .anhsanpham img{
     width: 100%;
 }
@@ -240,6 +229,7 @@ h4{
     max-width: 50%;
     float: left;
     padding: 10px;
+    text-align: left;
 }
 .sanpham__right{
     max-width: 50%;
@@ -251,7 +241,7 @@ h4{
     height: 400px;
 }
 .thanhphan{
-   background: #3faf41b8;
+   background: white;
 }
 .sanpham__img{
     max-width: 100%;
@@ -310,7 +300,7 @@ h4{
     line-height: 40px;
     padding-top: 30px; 
     width: 100%;
-    background: #3faf41b8;
+    background: white;
 }
 
 .congdung__content{
@@ -326,7 +316,7 @@ h4{
     /* padding-top: 30px; */
     padding-bottom: 30px;
    
-    background: #3faf41b8;
+    background: white;
 }
 .uudiem__content{
     text-align: center;
@@ -348,7 +338,7 @@ h4{
     clear: both;
 }
 .danhgia{
-    background: #3faf41b8;
+    background: white;
 }
 .danhgia__wrap{
     max-width: 800px;
@@ -359,9 +349,10 @@ h4{
 .danhgia__text{
     padding: 40px 0 40px 0;
     line-height: 30px;
+    text-align: left;
 }
 .lienhe{
-    background: #3faf41b8;
+    background: white;
     padding-bottom: 100px;
  
 }
@@ -400,7 +391,7 @@ h4{
 }
 .head{
     text-transform: uppercase;
-    color: #eefd02;
+    color: green;
     font-size: 40px;
     font-family: Lobster;
     padding: 30px 30px 20px 0;
@@ -418,35 +409,37 @@ h4{
 }
 .backtotop{
     position: fixed;
-    bottom: 0;
-    right: -50px;
+    bottom: 55;
+    right: -120px;
     z-index: 10;
-    opacity:0.2;
+    opacity: 0.5;
 }
 .backtotop img{
-    width: 50%;
+    width: 30%;
 }
 .facebook{
     position: fixed;
     bottom: 120;
-    right: -50px;
+    right: -120px;
     z-index: 10;
 }
 .facebook img{
-    width: 50%;
+    width: 30%;
 }
 .call{
     position: fixed;
-    bottom: 240;
-    right: -50px;
+    bottom: 190;
+    right: -120px;
     z-index: 10;
+    opacity: 0.8;
 }
 .call img{
-    width: 50%;
+    width: 30%;
 }
 .footer{
+    font-size: 10px;
     width: 100%;
-    height: 100px;
+    height: 30px;
     background-color: #023b1b;
     color : #eefd02;
     text-align: center;
@@ -457,27 +450,30 @@ h4{
     bottom: 0;
     z-index: 5;
 }
-.footer__imgwrap img{
-    height: 100px;
+.footer a{
+    color : #eefd02;
 }
 @media only screen and (max-width: 736px) {
     /* For mobile phones: */
     .menu__logo{
-        visibility: hidden;
+        opacity: 0;
     }
     .menu__wrap{
    
     }
     .list li a{
         
-        font-size: 10px;
-        float: none;
+        font-size: 7px;
+       
     }
     .list li{
-        float: none;
+        padding: unset;
+    }
+    .menu__bar{
+        padding-top: 0;
     }
     .banner__side{
-        visibility: hidden;
+        height: 30px;
     }
     .banner__button{
         visibility: hidden;
@@ -532,34 +528,35 @@ h4{
         height: 300px;
     }
     [class*=footer]{
-        height: 50px;
+        height: 20px;
         font-size: 10px;
        
     }
-    [class*=footer__imgwrap]{
+    /* [class*=footer__imgwrap]{
         visibility: hidden;
-    }
+    } */
     .call img{
-        width: 30%;
+        width: 20%;
         
     
     }
     .call {
-        right: -135px;
-        bottom: 140px;
+        right: -150px;
+        bottom: 120px;
     }
     .facebook img{
-        width: 30%;
+        width: 20%;
         
     
     }
     .facebook{
         bottom: 70px;
-        right: -135px;
+        right: -150px;
     }
     .backtotop {
         width: 30%;
-       
+        bottom: 25px;
+        right: -65px;
     }
     .dot1{
         visibility: hidden;
@@ -652,3 +649,42 @@ h4{
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+
+  *styles for responsive menu*/
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    #menu__bar li div.column.mayHide {
+        display: none;
+    }
+    #menu__bar ul {
+        width: 100%;
+        border-radius: 0;
+    }
+    #menu__bar li {
+        position:relative;
+	    width:33.33%;
+        box-sizing:border-box;
+        text-align: left;
+        border-top:1px solid rgba(143, 6, 6, 0.3);
+        border-right:1px solid rgba(255,255,255,0.3);
+    }
+    #menu__bar li.full-width {
+        position: relative;
+    }
+    #menu__bar div.dropdown {
+        width: auto;
+        left: 0px;
+        text-align: left;
+    }
+    #menu__bar li.full-width div.dropdown {
+        width: auto;
+    }
+    #menu__bar div.dropdown.right-aligned, #menu__bar div.dropdown.mayRight {
+        left: auto;
+        right: 0px;
+    }
+    #menu__bar li div.column {
+        width: auto;
+        border: none;
+    }
+}
