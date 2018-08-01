@@ -16,7 +16,7 @@ let html =` <div class="card" data-id="1" id="card1">
 </div>`
 
 var images = ["img/1karius.jpg","img/4virgil.jpg","img/13lallana.jpg","img/14henderson.jpg","img/7milner.jpg","img/9firmino.jpg","img/10mane.jpg","img/11salah.jpg","img/16chamberlain.jpg"];
-var div = "<div> "
+
 for ( let i = 0; i < images.length; i++) {
     html += "images[i]";
 }
