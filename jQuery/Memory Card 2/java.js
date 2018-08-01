@@ -24,18 +24,29 @@ function flip(){
     
     $(".card").click(function(){
         $(this).find('.front').css("transform",'rotateY(180deg)');
+        $(this).css('pointer-events', 'none');
+       
         if (!current) {
             current = $(this);
+            // current.find('.front').css("transfrom",'rotateY(180deg)');
         }
         else {
             if(current.attr('data-name') != $(this).attr('data-name'))
             {
+                $('.card').css('pointer-events', 'auto');
                 console.log('Khac nhau');
             }
             else {
                 console.log('Giong nhau');
+               
                 current.css("opacity",'0');
-                $(this).css("opacity",'0');
+                $(this).css("opacity",'0')
+                // setTimeout(function(){
+                    
+                //    ;
+                // },500);
+               
+                
             }
         };
     }
