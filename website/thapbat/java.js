@@ -23,7 +23,7 @@ function showSlides() {
       slideIndex = 0
     }    
     //tự động chuyển đổi slide sau 5s
-    setTimeout(showSlides, 4500);
+    setTimeout(showSlides, 7000);
 }
 //mặc định hiển thị slide đầu tiên 
 showSlides(slideIndex = 0);
@@ -63,3 +63,16 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+
+
+  // jQuery(document).ready(function($) {
+  //   $('.share').click(function() {
+  //   var NWin = window.open($(this).prop('href'), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
+  //   if (window.focus)
+  //   {
+  //   NWin.focus();
+  //   }
+  //   return false;
+  //   });
+  //  });
