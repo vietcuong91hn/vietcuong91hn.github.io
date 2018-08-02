@@ -478,7 +478,7 @@ h4{
         padding-top: 0;
     }
     .banner__side{
-        height: 30px;
+        height: 25px;
     }
     .banner__button{
         visibility: hidden;
@@ -507,9 +507,7 @@ h4{
         max-width: unset;
         float: none;
     }
-    .congdung img{
-        height: 100%;
-    }
+    
     [class*=sanpham__left]{
         float: none;
         max-width: unset;
@@ -525,9 +523,7 @@ h4{
         width: 300px;
         height: 300px;
     }
-    .uudiem img{
-        height: 100%;
-    }
+    
     [class*=lienhe__form]{
         visibility: hidden;
     }
