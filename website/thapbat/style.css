@@ -4,12 +4,6 @@
     padding: 0;
     
 }
-.wrap{
-    /* background-image: url("background2.jpg");
-    background-attachment: fixed;
-    background-repeat: repeat-y;
-    background-size: 100%; */
-}
 .banner{
     position: relative;
 
@@ -116,10 +110,6 @@
 .bienchung{
     background:white;
     margin: auto;
-}
-.bienchung__wrap{
-    /* background: #daa5207d; */
-    /* text-align: center; */
 }
 .bienchung__content{
     max-width: 800px;
@@ -313,7 +303,6 @@ h4{
 }
 .congdung img{
     width: 100%;
-    height: 80%;
 }
 .uudiem{
     line-height: 40px;
@@ -663,7 +652,6 @@ h4{
   }
 
 
-  *styles for responsive menu*/
 @media only screen and (min-width: 481px) and (max-width: 900px) {
     #menu__bar li div.column.mayHide {
         display: none;
