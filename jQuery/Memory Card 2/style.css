@@ -5,7 +5,7 @@
     position: relative;
 }
 .body img{
-    width: 100%;
+    width: 80%;
 }
 .wrap{
     width: 70%;
@@ -32,7 +32,6 @@
    
     opacity: 0.9;
     transition: 0.5s;
-    overflow: hidden;
     position: relative;
 }
 .card__wrap{
@@ -44,8 +43,11 @@
     opacity: 1;
     transform: scale(1.05);
 }
+.card .back:hover{
+    transform: scale(1.05);
+}
 .card__wrap img{
-    width: 100%;
+    width: 80%;
     padding: 5px;
 }
 .front{
@@ -54,13 +56,22 @@
     top: 0;
     left: 0;
 }
-/* .card:hover .back{
-    transform: rotateY(0deg);
-}
-.card:hover .front{
+/* .card:hover .front{
     transform: rotateY(180deg);
 } */
 .card__wrap .front, .card__wrap .back{
     transition: all 1s;
     backface-visibility: hidden;
+}
+ .front.flip{
+    transform: rotateY(180deg);
+}
+.back.flip{
+    transform: rotateY(360deg);
+}
+.pointer-lock{
+    pointer-events: none;
+}
+.pointer-auto{
+    pointer-events: auto;
 }
