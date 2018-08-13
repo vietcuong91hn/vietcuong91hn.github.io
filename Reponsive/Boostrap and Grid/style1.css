@@ -1,0 +1,21 @@
+* {
+box-sizing: border-box;
+
+
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.img-wrap{
+	overflow: hidden;
+
+}
+.row img{
+	transition: 1s;
+}
+.row img:hover{
+	transform: scale(1.2);
+}
