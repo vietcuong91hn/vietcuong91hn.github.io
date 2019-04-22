@@ -1,0 +1,96 @@
+<head>
+    <title> Ranking </title>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="content"></div>
+    <script type="text/javascript">
+
+        var point = [
+            {
+                "name": "Charlie",
+                "score": 5
+            },
+            {
+                "name": "Adam",
+                "score": 9
+            },
+            {
+                "name": "Ann",
+                "score": 7
+            },
+            {
+                "name": "Sue",
+                "score": 7
+            },
+            {
+                "name": "Lala",
+                "score": 9
+            },
+            {
+                "name": "Hai",
+                "score": 2
+            }
+        ]
+
+
+
+        point.sort(function (a, b) {
+            return parseFloat(b.score) - parseFloat(a.score);
+        });
+
+        // console.log(point[0]);
+
+
+        var ranked = point.map(function (m, i) {
+            if (i > 0) {
+                var getList = point[i - 1];
+                if (getList.score == m.score) {
+                    m.rank = getList.rank;
+                } 
+                else {
+                    m.rank = i + 1;
+                }
+            } 
+            else {
+                m.rank = 1;
+            }
+
+            return m;
+        });
+
+        console.log(ranked);
+
+
+// function findBiggestNumber(num) {
+//   var counts = []
+//   var i
+//   for (i = 0; i < num; i++) {
+//     counts.push(Math.random())
+//   }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- <script src="java.js"></script> -->
+</body>
