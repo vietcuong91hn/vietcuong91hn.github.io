@@ -19,7 +19,7 @@ function changeFontSize(x) {
 
 // Bai 2 + Bai 3:
 document.write("Bài 2: Sau khi changeFontSize gọi hàm increaseFontSize() để tăng font chữ lên 1 px</br>");
-document.write("Bài 3: Sau khi changeFontSize gọi hàm increaseFontSize() để giảm font chữ lên 1 px</br>");
+document.write("Bài 3: Sau khi changeFontSize gọi hàm decreaseFontSize() để giảm font chữ lên 1 px</br>");
 
 function increaseFontSize() {
     let b = content.style.fontSize;

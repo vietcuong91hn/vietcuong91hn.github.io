@@ -4,14 +4,30 @@
 <head>
 	<title> Index </title>
 	<meta charset="UTF-8"/>
-	<link rel="stylesheet" type="text/css" href="style.css" >
+	<!-- <link rel="stylesheet" type="text/css" href="style.css" > -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
 	
 
  </head>
 
- <body>
-		
+ <body ng-app="ungdungdautien">
+	<div ng-controller="ViduController" >
+	   <h2>Chao mung ban den voi {{xinchao.tieude}} tai VietJack.com!</h2>
+	</div>
+	<script>
+	   angular.module("ungdungdautien", [])
+	   .controller("ViduController", function($scope) {
+		  $scope.xinchao = {};
+		  $scope.xinchao.tieude = "AngularJS";
+	   });
+	</script>
+ </body>
 
-</body>
+<script type="text/javascript">
 
-  
+
+
+
+</script>  
