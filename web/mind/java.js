@@ -1,4 +1,4 @@
-var images = ["img/11.jpg","img/12.jpg","img/13.jpg","img/14.jpg","img/15.jpg","img/16.jpg","img/17.jpg","img/20.jpg","img/21.jpg","img/22.jpg","img/23.jpg","img/24.jpg","img/25.jpg","img/18.jpg"]
+var images = ["img/11a.jpg","img/12a.jpg","img/13a.jpg","img/14a.jpg","img/15a.jpg","img/16a.jpg","img/17a.jpg","img/18a","img/20.jpg","img/21.jpg","img/22.jpg","img/23.jpg","img/24.jpg","img/25.jpg"]
 
 for ( i = 0; i < images.length; i++ ){
   $(".slideshow-container").append(`
