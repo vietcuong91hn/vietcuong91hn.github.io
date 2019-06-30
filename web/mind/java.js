@@ -1,4 +1,4 @@
-var images = ["img/2.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg","img/9.jpg","img/10.jpg","img/11.jpg","img/12.jpg","img/13.jpg","img/14.jpg","img/15.jpg"]
+var images = ["img/11.jpg","img/12.jpg","img/13.jpg","img/14.jpg","img/15.jpg","img/16.jpg","img/17.jpg","img/20.jpg","img/21.jpg","img/22.jpg","img/23.jpg","img/24.jpg","img/25.jpg","img/18.jpg"]
 
 for ( i = 0; i < images.length; i++ ){
   $(".slideshow-container").append(`
@@ -41,47 +41,3 @@ showSlides(slideIndex = 0);
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
-
-
-
-/*================== cuộn trang ====================*/
-
-
-// $(document).ready(function(){
-//     // Add smooth scrolling to all links
-//     $("a").on('click', function(event) {
-  
-//       // Make sure this.hash has a value before overriding default behavior
-//       if (this.hash !== "") {
-//         // Prevent default anchor click behavior
-//         event.preventDefault();
-  
-//         // Store hash
-//         var hash = this.hash;
-  
-//         // Using jQuery's animate() method to add smooth page scroll
-//         // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-//         $('html, body').animate({
-//           scrollTop: $(hash).offset().top
-//         }, 800, function(){
-  
-//           // Add hash (#) to URL when done scrolling (default click behavior)
-//           window.location.hash = hash;
-//         });
-//       } // End if
-//     });
-//   });
-
-
-
-  // jQuery(document).ready(function($) {
-  //   $('.share').click(function() {
-  //   var NWin = window.open($(this).prop('href'), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');
-  //   if (window.focus)
-  //   {
-  //   NWin.focus();
-  //   }
-  //   return false;
-  //   });
-  //  });
