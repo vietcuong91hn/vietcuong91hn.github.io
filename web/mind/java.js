@@ -3,7 +3,10 @@ var images = ["img/11.jpg","img/12.jpg","img/13.jpg","img/14.jpg","img/15.jpg","
 for ( i = 0; i < images.length; i++ ){
   $(".slideshow-container").append(`
   <div class="mySlides fade">
-  <img src="${images[i]}" style="width:100%;transform:rotate(-90deg);max-width:900px">
+  <img src="${images[i]}" style="width:100%
+//   ;
+//   transform:rotate(-90deg)
+  ;max-width:900px">
   
 </div>
 `)
