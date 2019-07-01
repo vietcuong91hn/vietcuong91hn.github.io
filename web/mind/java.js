@@ -1,13 +1,9 @@
-var images = ["img/11a.jpg","img/12a.jpg","img/13a.jpg","img/14a.jpg","img/15a.jpg","img/16a.jpg","img/17a.jpg","img/18a","img/20.jpg","img/21.jpg","img/22.jpg","img/23.jpg","img/24.jpg","img/25.jpg"]
+var images = ["img/11a.jpg","img/12a.jpg","img/13a.jpg","img/14a.jpg","img/15a.jpg","img/16a.jpg","img/17a.jpg","img/18a.jpg","img/20.jpg","img/21.jpg","img/22.jpg","img/23.jpg","img/24.jpg","img/25.jpg"]
 
 for ( i = 0; i < images.length; i++ ){
   $(".slideshow-container").append(`
   <div class="mySlides fade">
-  <img src="${images[i]}" style="width:100%
-//   ;
-//   transform:rotate(-90deg)
-  ;max-width:900px">
-  
+  <img src="${images[i]}" style="width:100%;max-width:900px">
 </div>
 `)
 }

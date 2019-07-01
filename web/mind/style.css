@@ -9,3 +9,8 @@
     margin: auto;
     padding: auto;
 }
+@media only screen and (max-width: 736px) {
+    .wrap{
+        max-width: 600px;
+    }
+}
